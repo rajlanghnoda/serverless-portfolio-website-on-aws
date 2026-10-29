@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Raj Langhnoda's web development portfolio">
+  <title>Raj Langhnoda | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a href="#home" class="logo"><span>R</span>aj<span>.</span></a>
+    <button class="menu-toggle" id="menu-icon" aria-label="Open navigation menu" aria-expanded="false">
+      <i class="bx bx-menu"></i>
+    </button>
+    <nav class="navbar" id="navbar" aria-label="Main navigation">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home section" id="home">
+      <div class="home-content">
+        <p class="eyebrow">Hello, it's me</p>
+        <h1>Raj Langhnoda</h1>
+        <h2>And I'm a <span class="typed-text" id="typed-text"></span></h2>
+        <p class="intro">I build responsive, accessible, and user-friendly websites with a focus on clean design and useful experiences.</p>
+        <div class="home-sci" aria-label="Social links">
+          <a href="#" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="bx bxl-whatsapp"></i></a>
+          <a href="#" aria-label="TikTok"><i class="bx bxl-tiktok"></i></a>
+        </div>
+        <a href="#about" class="btn-box">More About Me</a>
+      </div>
+      <div class="home-image">
+        <div class="image-ring"><img src="img/Raj.png" alt="Portrait of Raj Langhnoda"></div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-image image-ring"><img src="img/king.jpg" alt="Raj Langhnoda"></div>
+      <div class="about-text">
+        <p class="section-kicker">Get to know me</p>
+        <h2 class="section-title">About <span>Me</span></h2>
+        <h3>Full Stack Developer</h3>
+        <p>I enjoy creating clear, responsive website experiences and bringing designs to life through frontend development. I pay attention to usability, visual consistency, and the details that help a website feel intuitive. I keep learning new tools and techniques so I can build better digital experiences for every project.</p>
+        <a href="#contact" class="btn-box">Let's Talk</a>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <p class="section-kicker">What I can do</p>
+      <h2 class="section-title">My <span>Services</span></h2>
+      <div class="services-list">
+        <article class="service-card">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>Responsive websites built with maintainable HTML, CSS, and JavaScript.</p>
+          <a href="#contact" class="read">Discuss a project</a>
+        </article>
+        <article class="service-card">
+          <i class="bx bx-palette"></i>
+          <h3>UI/UX Design</h3>
+          <p>Clean, user-focused layouts designed to make information easy to find.</p>
+          <a href="#contact" class="read">Discuss a project</a>
+        </article>
+        <article class="service-card">
+          <i class="bx bx-cloud"></i>
+          <h3>Cloud Projects</h3>
+          <p>Learning and building serverless solutions using AWS services.</p>
+          <a href="#contact" class="read">Discuss a project</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <p class="section-kicker">What I work with</p>
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skills-panel">
+          <h3>Technical Skills</h3>
+          <div class="skill"><div class="skill-label"><span>AWS</span><span>90%</span></div><div class="skill-track"><span style="width:90%"></span></div></div>
+          <div class="skill"><div class="skill-label"><span>Github</span><span>80%</span></div><div class="skill-track"><span style="width:80%"></span></div></div>
+          <div class="skill"><div class="skill-label"><span>Docker</span><span>75%</span></div><div class="skill-track"><span style="width:75%"></span></div></div>
+          <div class="skill"><div class="skill-label"><span>Jenkines</span><span>60%</span></div><div class="skill-track"><span style="width:60%"></span></div></div>
+          <div class="skill"><div class="skill-label"><span>Kubernets</span><span>65%</span></div><div class="skill-track"><span style="width:65%"></span></div></div>
+        </div>
+        <div class="skills-panel">
+          <h3>Professional Skills</h3>
+          <div class="professional-grid">
+            <div class="professional-skill"><div class="circle" style="--percent:90"><span>90%</span></div><p>Creativity</p></div>
+            <div class="professional-skill"><div class="circle" style="--percent:70"><span>70%</span></div><p>Communication</p></div>
+            <div class="professional-skill"><div class="circle" style="--percent:78"><span>78%</span></div><p>Problem Solving</p></div>
+            <div class="professional-skill"><div class="circle" style="--percent:85"><span>85%</span></div><p>Teamwork</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+      <p class="section-kicker">A few examples</p>
+      <h2 class="section-title">Latest <span>Projects</span></h2>
+      <div class="portfolio-content">
+        <article class="project-card">
+          <img src="img/ui and ux.jpeg" alt="UI and UX design project" loading="lazy">
+          <div class="project-layer"><h3>UI/UX Design</h3><p>A user-focused interface concept with a clean visual hierarchy.</p></div>
+        </article>
+        <article class="project-card">
+          <img src="img/website.jpeg" alt="Website design project" loading="lazy">
+          <div class="project-layer"><h3>Website Design</h3><p>A responsive website layout built around simple navigation.</p></div>
+        </article>
+        <article class="project-card">
+          <img src="img/easy and quick.jpeg" alt="Easy and quick web project" loading="lazy">
+          <div class="project-layer"><h3>Web Experience</h3><p>A straightforward experience designed to make common tasks easier.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-text">
+        <p class="section-kicker">Have a project in mind?</p>
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <h3>Let's work together</h3>
+        <p>Send me a message using the form. This form is ready to connect to your AWS Lambda Function URL.</p>
+        <ul class="contact-list">
+          <li><i class="bx bxs-send"></i><a href="mailto:langhnodaraj@gmail.com">langhnodaraj@gmail.com</a></li>
+          <li><i class="bx bxs-phone"></i><a href="tel:+919727813114">+91 97278 13114</a></li>
+        </ul>
+        <div class="contact-icons">
+          <a href="#" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="bx bxl-whatsapp"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" placeholder="Enter your name" autocomplete="name" required>
+        <label for="email">Your email</label>
+        <input id="email" name="email" type="email" placeholder="Enter your email" autocomplete="email" required>
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" rows="6" placeholder="How can I help you?" required></textarea>
+        <button type="submit" class="btn-box send-button">Send Message</button>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer"><p>Developed by Raj Langhnoda © <span id="year"></span></p><a class="back-to-top" href="#home" aria-label="Back to top"><i class="bx bx-up-arrow-alt"></i></a></footer>
+</body>
+</html>
