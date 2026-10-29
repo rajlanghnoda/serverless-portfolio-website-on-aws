@@ -1,6 +1,6 @@
 // Paste your AWS Lambda Function URL between the quotes below.
 // Example: https://xxxxxxxx.lambda-url.ap-south-1.on.aws/
-const CONTACT_API_URL = "PASTE_YOUR_LAMBDA_FUNCTION_URL_HERE";
+const CONTACT_API_URL = "https://g7eccrn72lfunctnobsughgf2a0odmgd.lambda-url.us-east-1.on.aws/";
 
 document.addEventListener("DOMContentLoaded", () => {
   // Typed.js animated role text
