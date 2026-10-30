@@ -35,7 +35,7 @@ Add your CloudFront URL here after deployment.
 Never upload AWS access keys, secret keys, or passwords.
 
 ## Author
-Raj
+Raj Langhnoda
 
 
 
